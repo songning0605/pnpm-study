@@ -15,6 +15,14 @@ importers:
         specifier: ^4.17.23
         version: 4.17.23
 
+  apps/app:
+    dependencies:
+      '@my-workspace/math':
+        specifier: workspace:^
+        version: link:../../packages/math
+
+  packages/math: {}
+
 packages:
 
   '@ant-design/colors@8.0.1':
