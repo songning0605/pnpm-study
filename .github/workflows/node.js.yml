@@ -26,7 +26,7 @@ jobs:
       uses: pnpm/action-setup@v4
       with:
         # You can specify a version or let it read from package.json
-        version: 10
+        version: 10.4.1
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
